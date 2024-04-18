@@ -1,12 +1,214 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
-
-.container_header h2{
-    /* font-family: "Comfortaa", sans-serif;
+body{
+    width: 1920px;
+}
+.container_header p {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal; */
+}
+
+
+.container_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 27px 316px;
+    margin: 0;
+    background-color: #1B1B1B;
+    
+    
+
+}
+
+.container_header a {
+    padding: 0 0 0 25px;
+    margin: 0; 
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    
+    
+
+}
+
+.header_links {
+    padding-left: 269px;
+}
+
+.header_links .link-01 {
+    padding: 0;
+}
+
+.button_feedback {
+    padding: 8px 24px;
+    border-radius: 25px;
+    background-color: #ffffff00;
+    border: 2px solid #F86064;
+    color: #F86064;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+.container_banner {
+    width: 1920px;
+    height: 824px;
+    background-color: #1B1B1B;
+    position: relative;
+    background-image: url(/img-jpg/937f7ae0ec2fc80d972697152c32d2af-topaz-enhance-2\ 1.jpg);
+}
+
+.container_header button {
+    margin: 0 0 0 25px;
+}
+
+
+.container_banner h1 {
+    font-size: 56px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    margin: 0;
+}
+
+.container_banner p {
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.btn-appeal {
+    padding: 16px 28px;
+    background-color: #F86064;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    margin-top: 47px;
+}
+
+.container_elements {
+    position: absolute;
+    margin: 125px 316px;
 }
 
 
 
+.background_about {
+    width: 1920px;
+    height: 884px;
+    background-color: #1B1B1B;
+    position: relative; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_about {
+    position: absolute;
+    padding: 125px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_about img {
+    border-radius: 15px;
+    margin-right: 44px;
+}
+
+.container_about h2 {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.container_about p {
+    width: 580px;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.background_scrolling {
+    width: 1920px;
+    height: 981px;
+    background-color: #1B1B1B;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.container_scrolling {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 125px 0;
+    margin: 0;
+}
+
+.container_scrolling h2 {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    padding-bottom: 64px;
+    margin: 0;
+}
+
+.container_scrolling h3 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    padding-right: 222px;
+    margin: 0;
+}
+
+.container_scrolling .scroll_group {
+    width: 1070px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 34px;
+
+    
+}
+
+
+.scroll_elements img {
+    width: 15px;
+    height: auto;
+    padding-right: 12px;
+    margin: 0;
+}
+
+.scroll_elements .ellipse_04 {
+    padding: 0;
+}
 
