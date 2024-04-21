@@ -8,30 +8,25 @@ body{
     width: 1920px;
 }
 
-.container {
+.container{
     width: 100%;
     height: 100%;
     padding: 0 17%;
-    margin: 0;0
 }
 
-/* HEADER */
+/* HEADER  */
 
-.header .container {
+.header .container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 60px;
+    margin: 0;
     background-color: #1B1B1B;
 }
 
-.header-right {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    padding-left: 10%;
-}
-
 .header .container p {
+    margin: 0;
     color: white;
     font-size: 24px;
     font-family: "Comfortaa", sans-serif;
@@ -41,7 +36,15 @@ body{
 }
 
 
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
 .header .container a {
+    padding: 0 0 0 25px;
+    margin: 0; 
     font-weight: 700;
     font-size: 14px;
     font-family: "Roboto", sans-serif;
@@ -49,7 +52,10 @@ body{
     font-style: normal;
     color: white;
     text-decoration: none;
-    padding-left: 25px;
+}
+
+.header_links .link-01 {
+    padding: 0;
 }
 
 .button_feedback {
@@ -64,18 +70,17 @@ body{
     font-style: normal;
 }
 
+
 /* !HEADER */
 
 /* BANNER */
 
 .banner .container {
+    width: 1920px;
+    height: 824px;
     background-color: #1B1B1B;
+    position: relative;
     background-image: url(/img-jpg/937f7ae0ec2fc80d972697152c32d2af-topaz-enhance-2\ 1.jpg);
-}
-
-
-.banner-elements {
-    padding: 17.8% 0;
 }
 
 .banner .container h1 {
@@ -84,6 +89,7 @@ body{
     font-weight: 700;
     font-style: normal;
     color: white;
+    margin: 0;
 }
 
 .banner .container p {
@@ -92,10 +98,11 @@ body{
     font-weight: 400;
     font-style: normal;
     color: white;
-    padding-top: 60px;
+    margin-top: 60px;
+    margin-bottom: 0;
 }
 
-.banner .container .btn-appeal {
+.btn-appeal {
     padding: 16px 28px;
     background-color: #F86064;
     border-radius: 25px;
@@ -105,31 +112,44 @@ body{
     font-weight: 700;
     font-style: normal;
     color: white;
-    margin-top: 60px;
+    margin-top: 47px;
+}
+
+.container_elements {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 /* !BANNER */
 
 /* ABOUT US */
 
-.aboutus {
+.about {
     width: 1920px;
     height: 884px;
     background-color: #1B1B1B;
+    position: relative; 
     display: flex;
+    justify-content: space-around;
 }
 
-.aboutus .container {
-    padding: 125px 6%;
+.about .container {
+    padding-top: 125px;
+    padding-bottom: 125px;
     display: flex;
+    justify-content: space-between;
 }
 
-.aboutus .container img {
+.about .container img {
     border-radius: 15px;
     margin-right: 44px;
 }
 
-.aboutus .container h2 {
+.about .container h2 {
     font-size: 40px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -137,34 +157,20 @@ body{
     color: white;
 }
 
-.aboutus .container p {
+.about .container p {
     width: 580px;
     font-size: 17px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
-    padding-top: 44px;
-}
-
-.aboutus .container .btn-appeal {
-    padding: 16px 28px;
-    background-color: #F86064;
-    border-radius: 25px;
-    border: none;
-    font-size: 17px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: white;
-    margin-top: 44px;
 }
 
 /* !ABOUT US */
 
-/* SWIPER */
+/* SERVICES */
 
-.swiper {
+.services {
     width: 1920px;
     height: 981px;
     background-color: #1B1B1B;
@@ -174,15 +180,13 @@ body{
     align-content: center;
 }
 
-.swiper .container {
-    position: absolute;
+.services .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 125px 0;
 }
 
-.swiper .container h2 {
+.container_scrolling h2 {
     font-size: 40px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -192,7 +196,7 @@ body{
     margin: 0;
 }
 
-.swiper .container h3 {
+.container_scrolling h3 {
     font-size: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -202,23 +206,25 @@ body{
     margin: 0;
 }
 
-.swiper-block {
+.container_scrolling .scroll_group {
     width: 1070px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 34px;
+
+    
 }
 
-.swiper .container img {
-    border-radius: 15px;
+
+.scroll_elements img {
+    width: 15px;
     height: auto;
-}
-
-.swiper-items img {
     padding-right: 12px;
-    width: 28px;
-    height: auto;
+    margin: 0;
 }
 
+.scroll_elements .ellipse_04 {
+    padding: 0;
+}
 
-/* !SWIPER */
