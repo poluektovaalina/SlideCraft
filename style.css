@@ -209,6 +209,14 @@ body{
     margin-top: 34px;
 }
 
+.swiper-arrows{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    
+}
+
 .swiper .container img {
     border-radius: 15px;
     height: auto;
@@ -219,6 +227,30 @@ body{
     width: 28px;
     height: auto;
 }
+
+.arrow-01 {
+    padding: 22px ;
+    transform: rotate(180deg);
+}
+
+.arrow-02 {
+    padding: 22px;
+}
+
+.curcle-arrows {
+    height: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ellipse_02 {
+    fill: #e0e0e0;
+}
+
 
 
 /* !SWIPER */
