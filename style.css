@@ -9,10 +9,11 @@ body{
 }
 
 .container {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     padding: 0 17%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 /* HEADER */
@@ -71,6 +72,7 @@ body{
 .banner .container {
     background-color: #1B1B1B;
     background-image: url(/img-jpg/937f7ae0ec2fc80d972697152c32d2af-topaz-enhance-2\ 1.jpg);
+    background-repeat: no-repeat;
 }
 
 
@@ -254,17 +256,17 @@ body{
 
 /* HOW WORK */
 
-.howwork {
+.howWork {
     background-color: #1B1B1B;
     display: flex;
 }
 
-.howwork .container {
-
+.howWork .container {
+    padding: 7% 17%;
 }
 
 
-.howwork-blocks {
+.howWork-blocks {
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
@@ -274,16 +276,18 @@ body{
 }
 
 
-.howwork .container h2 {
+.howWork .container h2 {
     font-size: 40px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
     color: white;
     padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
 }
 
-.howwork-stiker {
+.howWork-stiker {
     font-size: 14px;
     color: white;
     font-family: "Roboto", sans-serif;
@@ -298,41 +302,65 @@ body{
 }
 
 
-.howwork-block-01 {
+.howWork-block-01 {
     width: 48%;
     height: 239px;
     background-color: #333333;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    flex-basis: 30px ;
-
+    flex: 1 1 48%;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    padding: 16px 40px 32px 24px;
 }
 
-.howwork-block-02{
+.howWork-block-02{
     width: 100%;
     height: 180px;
     background-color: #333333;
-    border-radius: 8px; 
+    border-radius: 8px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding: 16px 40px 25px 24px;
+}
+
+.howWork-stiker-02 {
+    font-size: 14px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    width: 51px;
+    height: 29px;
+    background-color: #F86064;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 
-.howwork .container h4 {
+.howWork .container h4 {
     font-size: 24px;
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
 }
 
-.howwork .container p {
+.howWork .container p {
     font-size: 17px;
     font-weight: 400;
     color: white;
     font-family: "Roboto", sans-serif;
 }
 
-.btn-howwork {
+
+.btn-howWork {
     width: 188px;
     height: 52px;
     background-color: #F86064;
@@ -342,4 +370,7 @@ body{
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
+    margin-top: auto;
 }
+
+/* !HOW WORLD */
