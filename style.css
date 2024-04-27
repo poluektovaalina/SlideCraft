@@ -6,6 +6,7 @@
 
 body{
     width: 1920px;
+    overflow-x: hidden;
 }
 
 .container {
@@ -376,4 +377,93 @@ body{
     margin-top: auto;
 }
 
-/* !HOW WORLD */
+/* !HOW WORK */
+
+/* PARTNERS */
+
+.partners {
+    width: 100%;
+    height: 976px;
+    background-color: #1B1B1B;
+}
+
+.partners .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 7% 6%;
+}
+
+.partners-direction {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.partners-mainPicture {
+    width: 788px;
+    height: 728px;
+    border-radius: 15px;
+    margin-right: 44px;
+}
+
+.partners .container h2{
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.partners .container h4{
+    font-size: 24px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.partners-groupDirection {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.partners-items {
+    display: flex;
+    align-items:start ;
+    gap: 8px;
+}
+
+.partners-littlePicture {
+    width: 19px;
+    height: 15px;
+    margin-top: 4px;
+}
+.partners .container p{
+    width: 580px;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.partners .btn-appeal {
+    padding: 16px 28px;
+    background-color: #F86064;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    margin-top: 40px;
+}
+
+
+
+
+/* !PARTNERS */
+
